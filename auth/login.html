@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./loginStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="mainFlex">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <h2>Iniciar Sesión</h2>
+                
+                <div class="loginFields">
+                    <div class="usernameFieldsText">Nombre de usuario</div>
+                    <input class="inputUsername" type="text">
+                </div>
+                <div class="loginFields">
+                    <div class="passwordFieldsText">Contraseña</div>
+                    <input class="inputPassword" type="text">
+                </div>
+            
+            </div>
+            <div class="cardFooter">
+                <button id="loginButton" class="loginButton">Iniciar sesión</button>
+                <p class="registerText">¿No tienes cuenta? <a id="anchorRegister">Regístrate aquí</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="./loginScripts.js"></script>
+</body>
+</html>
